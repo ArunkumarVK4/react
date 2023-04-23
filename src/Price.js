@@ -12,7 +12,7 @@ export function Price() {
     <div className="card-body ">
       <h5 className="card-title text-center">
         <p>FREE</p>
-        <p><>0</><sub>/month</sub></p>
+        <p><>$0</><sub>/month</sub></p>
         <hr></hr>
       </h5>
       <p className="card-text">&#10003; Single User</p>
