@@ -74,15 +74,15 @@ export function Price() {
                     <i class="fa fa-check p-2" aria-hidden="true"></i>
                     {e.data4}
                   </p>
-                  <p className="card-text text-muted">
+                  <p className={e.price ==9 || e.price ==49 ? "card-text" : "card-text text-muted"}>
                     {e.price == 49 || e.price == 9 ? (
-                      <i class="fa fa-check p-2" aria-hidden="true"></i>
+                      <i class="fa fa-check p-2" aria-hidden="true"></i>    
                     ) : (
                       <i class="fa fa-times p-2" aria-hidden="true"></i>
                     )}
                     {e.data5}
                   </p>
-                  <p className="card-text text-muted">
+                  <p className={e.price ==9 || e.price ==49 ? "card-text" : "card-text text-muted"}>
                     {e.price == 49 || e.price == 9 ? (
                       <i class="fa fa-check p-2" aria-hidden="true"></i>
                     ) : (
@@ -90,15 +90,15 @@ export function Price() {
                     )}
                     {e.data6}
                   </p>
-                  <p className="card-text text-muted">
-                    {e.price == 49 ? (
+                  <p className={e.price ==49 || e.price==9 ? "card-text" : "card-text text-muted"}>
+                    {e.price == 49 || e.price==9 ? (
                       <i class="fa fa-check p-2" aria-hidden="true"></i>
                     ) : (
                       <i class="fa fa-times p-2" aria-hidden="true"></i>
                     )}
                     {e.data7}
                   </p>
-                  <p className="card-text text-muted">
+                  <p className={e.price ==49 ? "card-text" : "card-text text-muted"}>
                     {e.price == 49 ? (
                       <i class="fa fa-check p-2" aria-hidden="true"></i>
                     ) : (
